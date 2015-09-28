@@ -1,7 +1,7 @@
 # ndd
 Network Device Discovery
 
-## ONVIF Device Discovery [[ONVIF Core Specification](http://www.onvif.org/specs/core/ONVIF-Core-Specification-v260.pdf) Section 7. Excerpts
+## ONVIF Device Discovery [[ONVIF Core Specification](http://www.onvif.org/specs/core/ONVIF-Core-Specification-v260.pdf) Section 7. Excerpts]
 
 ### Terms and Definitions
 
@@ -37,6 +37,11 @@ Defined below are the basic definitions for the terms used in
     mode.
 * **Managed Network** - A network in which discovery is performed in a managed
     mode.
+
+### XML Namespaces
+
+The XML Namespace URI that MUST be used by implementations of this specification
+is: [http://docs.oasis-open.org/ws-dd/ns/discovery/2009/01](http://docs.oasis-open.org/ws-dd/ns/discovery/2009/01)
 
 ### 1. General
 A client searches for available devices using the dynamic [Web Services discovery protocol [WS-Discovery]](http://docs.oasis-open.org/ws-dd/discovery/1.1/os/wsdd-discovery-1.1-spec-os.html).
@@ -149,12 +154,5 @@ between 0 and APP_MAX_DELAY. The default value for APP_MAX_DELAY parameter is
 
 
 [WSDL](http://docs.oasis-open.org/ws-dd/discovery/1.1/os/wsdd-discovery-1.1-wsdl-os.wsdl)
-[Multicast](https://en.wikipedia.org/wiki/Multicast) протокол поиска устройств
-в локальной сети. Работает по протоколам TCP и UDP через порт **3702** и
-использует ip 239.255.255.250. Связь между узлами реализуется стандартами
-[Web-Services](https://en.wikipedia.org/wiki/Web_service), а именно
-[SOAP-over-UDP](http://docs.oasis-open.org/ws-dd/soapoverudp/1.1/os/wsdd-soapoverudp-1.1-spec-os.html).
 
-A device compliant with this specification shall implement the Target Service role as specified
-in [WS-Discovery].
 
