@@ -1,0 +1,11 @@
+http://www.onvif.org/onvif/ver10/schema/onvif.xsd
+http://www.onvif.org/ver10/pacs/types.xsd
+
+http://www.w3.org/2005/08/addressing/ws-addr.xsd
+http://docs.oasis-open.org/wsn/t-1.xsd
+http://docs.oasis-open.org/wsn/b-2.xsd
+http://docs.oasis-open.org/wsrf/bf-2.xsd
+http://www.w3.org/2005/05/xmlmime
+http://www.w3.org/2003/05/soap-envelope
+http://www.w3.org/2004/08/xop/include
+http://schemas.xmlsoap.org/ws/2005/04/discovery/ws-discovery.xsd
