@@ -39,7 +39,7 @@ CERTAIN WRITTEN POLICIES OF THE CORPORATION.
      xmlns:tac="http://www.onvif.org/ver10/accesscontrol/wsdl"
      elementFormDefault="qualified"
      version="1.0">
-      <xs:import namespace="http://www.onvif.org/ver10/pacs" schemaLocation="../schema/types.xsd"/>
+      <xs:import namespace="http://www.onvif.org/ver10/pacs" schemaLocation="./schema/types.xsd"/>
       <!--====== types ======-->
       <xs:complexType name="ServiceCapabilities">
       <xs:annotation>
